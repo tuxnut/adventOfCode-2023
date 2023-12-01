@@ -8,7 +8,7 @@ fn create_directory(day: &str) {
 }
 
 fn download_input(day: &str) {
-    let url = format!("https://adventofcode.com/2022/day/{}/input", day);
+    let url = format!("https://adventofcode.com/2023/day/{}/input", day);
 
     let session = dotenv::var("COOKIE_SESSION").expect("Failed to get session cookie");
     let client = reqwest::blocking::Client::new();
