@@ -2,5 +2,5 @@
 
 .vscode
 *.template
-input*.txt
+*.txt
 .env
